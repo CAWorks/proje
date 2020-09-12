@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\County\" />
+    <Folder Include="Abstract\Employess\" />
+    <Folder Include="Abstract\Favorites\" />
+    <Folder Include="Abstract\Media\" />
+    <Folder Include="Abstract\Orders\" />
+    <Folder Include="Concrete\Common\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BetaECommerce.Core\BetaECommerce.Core.csproj" />
+  </ItemGroup>
+
+</Project>
